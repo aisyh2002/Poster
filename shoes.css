@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;500;600;700;800&display=swap');
+
+*{ margin: 0;
+   padding: 0; 
+   font-family: 'Montserrat', sans-serif;
+   color: white;
+} 
+
+html, body {
+    width: 1301px;
+    height: 1838px;
+    margin: 0 auto;
+}
+
+
+.text {
+    letter-spacing: 10px;
+}
+
+#container {
+    height: 100%;
+    width: 100%;
+    background-image: url(bg-2.png);
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+}
+
+#container div {
+    position: absolute;
+}
+
+#top-right {
+    width:125px;
+    height: 110px;
+    position: absolute;
+    left: 900px;
+    top: 135px;
+    letter-spacing: 5px;
+    line-height: 35px;
+    font-size: 20px;
+}
+
+#top-left {
+    width: 176px;
+    height: 131px;
+    position: absolute;
+    left: 157px;
+    top: 130px;
+}
+
+#top-left h3 {
+    margin-left: 90px;
+    font-size: 20px;
+}
+
+#top-left h2 {
+    font-weight: 300;
+    font-size: 33px;
+}
+
+#top-left h1 {
+    font-size: 48px;
+    line-height: 45px;
+    font-weight: 700;
+}
+
+#bottom-right {
+    width: 450px;
+    height: 319px;
+    position: absolute;
+    left: 758px;
+    top: 1295px;
+    font-size: 15px;
+    letter-spacing: 6px;
+}
+
+#OneA {
+    margin-bottom: 35px;
+}
+
+.OneB {
+    font-weight: 300;
+    margin: 12px 0;
+}
+
+#bottom-left {
+    width: 250px;
+    height: 131px;
+    position: absolute;
+    left: 130px;
+    top: 1481px;
+    font-size: 12.5px;
+    letter-spacing: 5px;
+}
+
+#middle {
+    width: 1073px;
+    height: 911px;
+    position: relative;
+    left: 120px;
+    top: 350px;
+}
+
+#middle * {
+    position: absolute;
+}
+
+#title1 {
+    font-size: 100px;
+    letter-spacing: 40px;
+    z-index: 3;
+    font-weight: 800;
+    top: 50px;
+    left: 50px;
+}
+
+#title2 {
+    font-size: 70px;
+    z-index: 0;
+    left: 510px;
+    top: 325px;
+    letter-spacing: 30px;
+}
+
+#title3 {
+    font-size: 100px;
+    letter-spacing: 40px;
+    top: 550px;
+    left: 50px;
+}
+
+#shoe {
+    top:10px;
+    left: 400px;
+    z-index: 2;
+    transform: scale(0.91);
+ 
+}
+
+#moon {
+    top: 260px;
+    left: 180px;
+    transform: scale(0.85);
+  
+}
+
+
+
+#pineapple {
+    left: 445px;
+    top: 370px;
+    transform: scale(0.8);
+    z-index: 1;
+  
+}
+
+.lines {
+    background-color: white;
+    height: 10px;
+}
+
+#top-vertical-line {
+    width: 10px;
+    height: 235px;
+    left: 120px;
+}
+
+#top-right-line {
+    width: 125px;
+    top: 140px;
+    left: 1030px;
+}
+
+#upper-mid-line {
+    width: 695px;
+    top: 375px;
+    left: 460px;
+    z-index: 0;
+}
+
+#lower-mid-line {
+    width: 700px;
+    top:1150px;
+    left: 185px;
+    z-index: 0;
+}
+
+#bottom-right-line {
+    width: 125px;
+    top:1270px;
+    left: 760px;
+}
+
+#bottom-left-line {
+    width: 45px;
+    top:1460px;
+    left: 130px;
+}
+
+#bottom-vertical-line {
+    width: 10px;
+    height: 444px;
+    bottom: 0px;
+    left: 730px;
+}
+
+.tiny-squares {
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    position: absolute;
+}
+
+#square1 {
+    top: 140px;
+    left: 850px;
+}
+
+#square2 {
+    top: 175px;
+    left: 850px;
+}
+
+#square3 {
+    top: 140px;
+    left: 815px;
+}
